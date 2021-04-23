@@ -1,9 +1,9 @@
 
 /**
- * BING TRANSLATION HAS THE SAME ERROR AS GOOGLE
+ * TRY BING TRANSLATION
  */
 // const { translate } = require('bing-translate-api');
-// translate('আজিব-Ajib', null, 'en', true).then(res => {
+// translate('Ajib', null, 'en', true).then(res => {
 //   console.log(res.translation);
 // }).catch(err => {
 //   console.error(err);
@@ -36,25 +36,5 @@ app.get('/bn/:text', (req, res) => {
 app.listen(port, () => {
     console.log(`Translator app listening at http://localhost:${port}`)
 })
-  
 
-/**
- * TRY ARABIC
- */
-// app.get('/ar/:text', (req, res) => {
-//     translate(req.params.text, {to: 'ar'}).then(response => {
-//         console.log('Response: ' + response.text);
-//         console.log('Translated from: ' + response.from.language.iso);
-//         translate(response.text, {to: 'en'}).then(response => {
-//             console.log('Response: ' + response.text);
-//             console.log('Translated from: ' + response.from.language.iso);
-//             res.send(response.text);
-
-//         }).catch(err => {
-//             console.error(err);
-//         });
-//     }).catch(err => {
-//         console.error(err);
-//     });    
-// })
 
