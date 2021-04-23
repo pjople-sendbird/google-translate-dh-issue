@@ -58,15 +58,3 @@ app.listen(port, () => {
 //     });    
 // })
 
-
-
-
-
-
-
-// translate('আজিব-Ajib', {to: 'en'}).then(res => {
-//     console.log('Response: ' + res.text);
-//     console.log('Translated from: ' + res.from.language.iso);
-// }).catch(err => {
-//     console.error(err);
-// });
